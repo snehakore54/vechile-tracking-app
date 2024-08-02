@@ -1,0 +1,37 @@
+/* src/components/VehicleTracker.css */
+
+.vehicle-tracker {
+    position: relative;
+  }
+  
+  .map {
+    height: 80vh; /* Adjust the height as needed */
+    width: 100%;
+  }
+  
+  .address-display {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+  }
+  
+  .address-display strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .address-display p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+.custom-bike-icon {
+    background: transparent;
+    border: none;
+  }
+  
